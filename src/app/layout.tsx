@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Research Assistant',
-  description: 'A research assistant powered by Gemini AI and Tavily',
+  title: 'Windows Assistant - Information at Your Fingertips',
+  description: 'The ultimate Windows desktop assistant that brings information to your fingertips. No more browser tabs, just Ctrl+Enter to ask anything. Real-time, always fresh.',
 };
 
 export default function RootLayout({
