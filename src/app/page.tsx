@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { QueryResponse as QueryResponseType, StreamingQueryResponse } from '../api/types';
 import QueryInput from '../components/QueryInput';
 import QueryResponse from '../components/QueryResponse';

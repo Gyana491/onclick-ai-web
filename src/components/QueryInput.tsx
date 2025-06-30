@@ -1,5 +1,4 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
-import { StreamingQueryResponse } from '../api/types';
 
 interface QueryInputProps {
   onSubmit: (query: string, attachment: string | null, searchEnabled: boolean) => void;
