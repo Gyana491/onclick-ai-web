@@ -198,44 +198,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-gray-300 py-12 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="col-span-2">
-              <h3 className="text-2xl font-bold text-white mb-4">Oneclick AI</h3>
-              <p className="text-gray-400 mb-4">
-                Information at your fingertip anytime anywhere. Your smart Desktop Assistant that makes you look like a genius while saving hours every day.
-              </p>
-              <div className="flex space-x-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
-                  OA
-                </div>
-              </div>
-            </div>
-            
-            <div>
-              <h4 className="font-semibold text-white mb-4">Why It Works</h4>
-              <ul className="space-y-2 text-sm">
-                <li>3-second responses</li>
-                <li>Screen context aware</li>
-                <li>Always learning</li>
-                <li>Completely invisible</li>
-                <li>No browser needed</li>
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="font-semibold text-white mb-4">Get Started</h4>
-              <ul className="space-y-2 text-sm">
-                <li>Free download</li>
-                <li>2-minute setup</li>
-                <li>Instant productivity</li>
-                <li>24/7 support</li>
-                <li>Money-back guarantee</li>
-              </ul>
-          </div>
-        </div>
-        
-          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2024 Oneclick AI. All rights reserved. Information at your fingertip anytime anywhere. 🚀</p>
+          <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+            <p>&copy; 2025 Oneclick AI. All rights reserved. Information at your fingertip anytime anywhere. 🚀</p>
           </div>
         </div>
       </footer>

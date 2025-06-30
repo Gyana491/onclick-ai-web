@@ -63,13 +63,12 @@ const ModernHero = () => {
         {/* Hero Content */}
         <div className="flex flex-col items-center text-center space-y-8">
           <Badge variant="secondary" className="backdrop-blur-sm bg-yellow-400/20 border border-yellow-400/30 text-yellow-300 hover:bg-yellow-400/30 px-6 py-2 rounded-full">
-            🔥 10,000+ Professionals Already Using This
+            No Need to Open 100s of Tabs IN your Browser Again
           </Badge>
           
           <div className="space-y-8 flex items-center justify-center flex-col">
             <h1 className="text-4xl md:text-7xl font-bold tracking-tight max-w-5xl leading-tight">
-              <span className="text-white">THE WORLD OF</span>
-              <br />
+              
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 INFORMATION
               </span>
@@ -113,12 +112,7 @@ const ModernHero = () => {
               >
                 🚀 Download for Windows
               </a>
-              <a 
-                href="/demo"
-                className="text-lg px-10 py-4 rounded-xl bg-transparent text-white border border-white/30 shadow-none hover:bg-white/10 transition-all duration-300"
-              >
-                See It In Action
-              </a>
+              
             </div>
 
             {/* Windows Keyboard with Ctrl+Enter Highlight */}
