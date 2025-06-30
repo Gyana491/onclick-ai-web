@@ -33,8 +33,33 @@ const ModernHero = () => {
   ];
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-[#000] to-[#1A2428] text-white flex flex-col items-center justify-center p-8 relative overflow-hidden">
-      <div className="w-full max-w-7xl space-y-16 relative z-10">
+    <div className="min-h-screen w-full bg-gradient-to-br from-[#000] to-[#1A2428] text-white flex flex-col relative overflow-hidden">
+      {/* Header */}
+      <header className="w-full bg-black/20 backdrop-blur-sm border-b border-white/10 relative z-20">
+        <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-lg">
+              <Zap size={24} className="text-black" />
+            </div>
+            <span className="text-2xl font-bold text-white">OneclickAI</span>
+          </div>
+          
+          {/* Download Button */}
+          <a 
+            href="https://drive.google.com/drive/folders/1RCcY0Ix9gpzpBHd86PUmulUFhjalfcoI?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition-all duration-300 hover:scale-105"
+          >
+            Download for Windows
+          </a>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <div className="flex-1 flex flex-col items-center justify-center p-8">
+        <div className="w-full max-w-7xl space-y-16 relative z-10">
         {/* Hero Content */}
         <div className="flex flex-col items-center text-center space-y-8">
           <Badge variant="secondary" className="backdrop-blur-sm bg-yellow-400/20 border border-yellow-400/30 text-yellow-300 hover:bg-yellow-400/30 px-6 py-2 rounded-full">
@@ -43,11 +68,13 @@ const ModernHero = () => {
           
           <div className="space-y-8 flex items-center justify-center flex-col">
             <h1 className="text-4xl md:text-7xl font-bold tracking-tight max-w-5xl leading-tight">
+              <span className="text-white">THE WORLD OF</span>
+              <br />
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                ONECLICK AI
+                INFORMATION
               </span>
               <br />
-              <span className="text-white">INFORMATION AT YOUR</span>
+              <span className="text-white">JUST AT YOUR</span>
               <br />
               <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
                 FINGERTIP
@@ -142,6 +169,7 @@ const ModernHero = () => {
             <span>✅ 2-minute setup</span>
             <span>✅ Desktop ready now • macOS soon</span>
           </div>
+        </div>
         </div>
       </div>
 
