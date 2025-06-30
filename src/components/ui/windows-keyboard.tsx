@@ -202,7 +202,7 @@ const Keyboard = ({ pressedKeys }: { pressedKeys: string[] }) => {
                     <div className="text-center"><span className="block">:</span><span className="block">;</span></div>
                 </Key>
                 <Key className="w-6 items-center justify-center">
-                    <div className="text-center"><span className="block">"</span><span className="block">'</span></div>
+                    <div className="text-center"><span className="block">&quot;</span><span className="block">&apos;</span></div>
                 </Key>
                 <Key className="w-[2.85rem]" isPressed={isKeyPressed('ENTER')}>
                     <div className="flex w-full h-full items-end justify-end pr-[4px] pb-[2px]">

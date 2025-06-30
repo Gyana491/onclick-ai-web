@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Shape, ExtrudeGeometry, Group } from 'three';
-import * as THREE from 'three';
 
 interface BoxProps {
     position: [number, number, number];

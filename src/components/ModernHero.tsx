@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Scene } from '@/components/ui/hero-section';
-import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Cpu, Zap, Eye, ShieldCheck } from 'lucide-react';
 import KeyboardShortcut from './KeyboardShortcut';

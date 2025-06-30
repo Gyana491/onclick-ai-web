@@ -1,10 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Scene } from "@/components/ui/hero-section";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { LucideIcon, Cpu, ShieldCheck, Layers, Zap, Eye } from "lucide-react";
+import { Cpu, ShieldCheck, Layers, Zap } from "lucide-react";
 
 const features = [
   {

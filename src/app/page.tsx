@@ -17,7 +17,7 @@ export default function Home() {
       title: "Excel Mastery at Your Fingertips",
       description: "Screenshot + Ask = Instant Excel expertise. No more YouTube tutorials.",
       icon: "📊",
-      example: "\"How do I filter column B?\" → Get step-by-step instructions instantly, no video watching required.",
+      example: "&quot;How do I filter column B?&quot; → Get step-by-step instructions instantly, no video watching required.",
       beforeAfter: "Before: 15 min tutorial → After: Instant answer"
     },
     {
@@ -29,7 +29,7 @@ export default function Home() {
     },
     {
       title: "Design Decisions Made Easy",
-      description: "Can't choose between options? Get expert-level feedback instantly.",
+      description: "Can&apos;t choose between options? Get expert-level feedback instantly.",
       icon: "🎨",
       example: "\"Which thumbnail converts better?\" → Get data-driven design advice without hiring a consultant.",
       beforeAfter: "Before: Guesswork → After: Expert advice"
@@ -96,7 +96,7 @@ export default function Home() {
               What If You Could Look Like a Genius?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Imagine having the world's smartest assistant watching your screen, ready to help instantly. No more embarrassing moments, no more wasted time.
+              Imagine having the world&apos;s smartest assistant watching your screen, ready to help instantly. No more embarrassing moments, no more wasted time.
             </p>
             <div className="inline-block bg-gradient-to-r from-green-400 to-blue-400 text-black px-8 py-4 rounded-full text-lg font-semibold shadow-lg">
               🎯 This is your unfair advantage
@@ -161,7 +161,7 @@ export default function Home() {
                 </div>
                 <div className="bg-green-500/20 border border-green-400/30 p-4 rounded-lg">
                   <p className="text-green-200 font-bold text-center">
-                    ⚡ That's it! You're now 10x more productive
+                    ⚡ That&apos;s it! You&apos;re now 10x more productive
                   </p>
                 </div>
               </div>
