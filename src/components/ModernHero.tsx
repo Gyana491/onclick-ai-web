@@ -3,7 +3,7 @@
 import React from 'react';
 import { Scene } from '@/components/ui/hero-section';
 import { Badge } from '@/components/ui/badge';
-import { Cpu, Zap, Eye, ShieldCheck } from 'lucide-react';
+import { Cpu, Zap, Eye, ShieldCheck, Download } from 'lucide-react';
 import KeyboardShortcut from './KeyboardShortcut';
 import WindowsKeyboard from './ui/windows-animated-shortcut-keyboard';
 
@@ -49,9 +49,11 @@ const ModernHero = () => {
             href="https://drive.google.com/drive/folders/1RCcY0Ix9gpzpBHd86PUmulUFhjalfcoI?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition-all duration-300 hover:scale-105"
+            className="px-3 py-2 rounded-md bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition-all duration-300 hover:scale-105 flex items-center justify-center text-center sm:ml-4 ml-2 text-base sm:text-base text-sm min-w-0"
+            style={{height: '40px'}}
           >
-            Download for Windows
+            <span className="sm:hidden"><Download size={20} /></span>
+            <span className="hidden sm:inline">Download for Windows</span>
           </a>
         </div>
       </header>
