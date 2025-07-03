@@ -117,12 +117,12 @@ const ModernHero = () => {
             </div>
 
             {/* Windows Keyboard with Ctrl+Enter Highlight */}
-            <div className="w-full flex justify-center pt-16 pb-24">
+            <div className="hidden md:flex w-full justify-center pt-16 pb-24">
               <WindowsKeyboard />
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto pt-64">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto pt-16 md:pt-64">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center">
                 <div className="text-2xl font-bold text-green-400">3 sec</div>
                 <div className="text-white/60 text-sm">Average response</div>
